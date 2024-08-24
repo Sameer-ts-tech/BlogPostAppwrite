@@ -1,0 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family:Open Sans,sans-serif;
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+  
+}
+body{
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(232,32,127,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+
+
+.gredient{
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(232,32,127,1) 50%, rgba(252,176,69,1) 100%);
+}
+.gredient2{
+  background: radial-gradient(circle, rgb(223, 94, 150) 0%, rgb(145, 58, 140) 100%);
+}
+.ClassFlex{
+  @media screen and (max-width: 550px) {
+    display: flex;
+  }
+}
+.height{
+  height: 35vh;
+  @media screen and (max-width: 550px) {
+   height: auto;
+  }
+}
+.height1{
+  height: 35vh;
+  @media screen and (max-width: 550px) {
+   height: auto;
+  }
+}
+.height2{
+  height: 44.8vh;
+  @media screen and (max-width: 550px) {
+   height: auto;
+  }
+}
